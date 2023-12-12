@@ -4,7 +4,7 @@ const Education = () => {
 
  return (
  <div>
-    <h1 className="text-4xl text-center text-cyan-500 p-3 font-bold">My Education & Experience </h1> 
+    <h1 className="text-4xl text-center text-cyan-500 p-3 mt-5 font-bold">My Education & Experience </h1> 
   <div data-aos="fade-zoom-in"
      data-aos-easing="ease-in-back"
      data-aos-delay="300"
