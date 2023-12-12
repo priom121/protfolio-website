@@ -1,6 +1,8 @@
 import { AiFillGithub } from 'react-icons/ai'
 import { FaFacebook, FaInstagram, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
 import profileImage from '../assets/pritom.jpg'
+import resume from '../public/resume.pdf'
+
 
 const About = () => {
     return (
@@ -17,10 +19,16 @@ const About = () => {
                 <div className="flex mt-8 gap-2">
                     <div className="flex items-center justify-center">
                         <div className="flex space-x-2">
-                            <button className='neno-button shadow-xl
+                         
+                          <button className='neno-button shadow-xl
                              hover:shadow-teal-800/50
                               text-white border-2 hover:bg-teal-800
-                               border-teal-800 rounded-xl py-4 px-8 uppercase relative overflow-hidden'>Resume</button>
+                               border-teal-800 rounded-xl py-4 px-8 uppercase relative overflow-hidden'>
+                                <a target='_blank' download={true} href={resume}>Resume</a>
+                                
+                                
+                                </button>
+                     
 
                         </div>
                         <div className="text-lg ml-3">

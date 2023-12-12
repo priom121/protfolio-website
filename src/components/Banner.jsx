@@ -33,19 +33,16 @@ I'm a developer . I enjoy developing simple, clean and slick websites that provi
                 <div className="flex mt-8 gap-2">
                     <div className="flex items-center justify-center">
                         <div className="flex space-x-2">
-                            <a href="" className="text-teal-600 hover:text-fuchsia-500 rounded-full glow p-2">
+                            <a target='_blank' href="https://github.com/priom121" className="text-teal-600 hover:text-fuchsia-500 rounded-full glow p-2">
                                 <AiFillGithub className="text-[28px]" />
                             </a>
-                            <a href="" className="text-teal-600 hover:text-teal-500 rounded-full glow p-2">
+                            <a target='_blank' href="https://www.linkedin.com/in/priom-gupta-829ba02a3/" className="text-teal-600 hover:text-teal-500 rounded-full glow p-2">
                                 <FaLinkedinIn className="text-[28px]" />
                             </a>
-                            <a href="" className="text-teal-600 hover:text-teal-500 rounded-full glow p-2">
+                            <a target='_blank' href="https://www.facebook.com/priomprosad.gupta/" className="text-teal-600 hover:text-teal-500 rounded-full glow p-2">
                                 <FaFacebook className="text-[28px]" />
                             </a>
-                            <a href="" className="text-teal-600 hover:text-teal-500 rounded-full glow p-2">
-                                <FaTwitter className="text-[28px]" />
-                            </a>
-                            <a href="" className="text-teal-600 hover:text-teal-500 rounded-full glow p-2">
+                            <a target='_blank' href="https://www.instagram.com/priomprosad.gupta/" className="text-teal-600 hover:text-teal-500 rounded-full glow p-2">
                                 <FaInstagram className="text-[28px]" />
                             </a>
 
